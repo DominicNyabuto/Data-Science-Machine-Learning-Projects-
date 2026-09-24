@@ -59,7 +59,7 @@ The dataset includes **16 building characteristics**:
 
 ### 1. Classification Reports
 
-![Classification Reports](/results/figures/Classification_Reports.png)
+![Classification Reports](results/figures/Classification_Reports.png)
 
 ### 2. Confusion Matrices
 
