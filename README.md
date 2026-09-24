@@ -33,7 +33,7 @@ The repository is divided into two distinct units, progressively scaling from fo
 - **Description**:
     - This project focuses on foundational data science workflow. It utilizes real estate data from Mexico City which is loaded, cleaned, and visualized to showcase the property listings. The project then dives into quantifying relationships among variables using correlation analysis to explore if property prices are influenced more by size or location. This then helps in the creation of a predictive model.
 
-- [Link to Project 1](.Project-1)
+- [Link to Project 1](Project-1/)
 
 
 #### Project 2: Predicting Housing Prices in Buenos Aires with Linear Regression
@@ -43,7 +43,7 @@ The repository is divided into two distinct units, progressively scaling from fo
 - **Description**:
     - This is a predictive modeling project that predicts housing prices in Buenos Aires. It involves preparing data for modeling, building initial linear regression models, and confronting the reality of overfitting. It address model variance using Ridge and Lasso regularization, proving an understanding of model generalization rather than just fitting numbers.
   
-- [Link to Project 2](.Project-2)
+- [Link to Project 2](Project-2/)
 
 
 #### Project 3: Time Series Modeling of Air Quality in Nairobi
@@ -53,7 +53,7 @@ The repository is divided into two distinct units, progressively scaling from fo
 - **Description**: 
     - This project deals with time-indexed data. Using air quality measurements from Nairobi stored in MongoDB, we query, prepare, and forecast time series data. The project builds from simple lagged regression up to Autoregressive (AR) and ARMA models.
   
-- [Link to Project 3](.Project-3)
+- [Link to Project 3](Project-3/)
 
 
 #### Project 4: Predicting Earthquake Damage in Nepal with Classification Models
@@ -63,10 +63,10 @@ The repository is divided into two distinct units, progressively scaling from fo
 - **Description**: 
     - Entails the use of classification algorithms to predict earthquake damage to buildings in Nepal. This project covers the full pipeline: querying relational databases, processing the data, training Logistic Regression and Decision Tree models, and evaluating them using metrics appropriate for discrete outcomes. It places ML in a real-world humanitarian decision-making context.
 
-- [Link to Project 4](.Project-4)
+- [Link to Project 4](Project-4/)
 
  
-### UNIT 2: Ensembles, Unsupervised Learning, and Deployment
+### UNIT 2: Ensembles, Unsupervised Learning, and End-to-End Deployment
 
 
 #### Project 5: Random Forests and Gradient Boosting for Bankruptcy Prediction
@@ -76,7 +76,7 @@ The repository is divided into two distinct units, progressively scaling from fo
 - **Description**:
     - Entails advanced ensemble architectures using corporate bankruptcy records from Poland and Taiwan. Involves handling highly imbalanced datasets and building pipelines using Random Forest and Gradient Boosting classifiers. The primary focus is bridging the gap between a working notebook model and a robust prediction pipeline.
 
-- [Link to Project 5](.Project-5)
+- [Link to Project 5](Project-5/)
 
 
 #### Project 6: Unsupervised Learning for Consumer Finance Segmentation
@@ -86,7 +86,7 @@ The repository is divided into two distinct units, progressively scaling from fo
 - **Description**: 
     - Focuses on segmentation of consumer finance data by exploring how clustering algorithms group individuals based on latent financial behaviors. This project highlights a crucial data science philosophy: clustering results are analytical constructs, not ground truth, making model interpretability as important as the math itself.
 
-- [Link to Project 6](.Project-6)
+- [Link to Project 6](Project-6/)
 
 
 #### Project 7: Experimentation and Decision-Making with Applicant Data
@@ -96,7 +96,7 @@ The repository is divided into two distinct units, progressively scaling from fo
 - **Description**: 
     - Focuses on statistical experimentation using data stored in MongoDB. Entails building robust ETL pipelines and test hypotheses using chi-square statistics to determine the efficacy of interventions. The results are communicated via interactive web dashboards (Plotly Dash). The focus is not on prediction but rather efficacy of real-word intervention strategies. 
 
-- [Link to Project 7](.Project-7)
+- [Link to Project 7](Project-7/)
 
 
 #### Project 8: Financial Volatility Modelling and End-to-End Deployment
