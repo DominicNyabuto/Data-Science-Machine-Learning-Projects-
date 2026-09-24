@@ -5,17 +5,17 @@
 
 This is my Data Science & Machine Learning Projects repository. It serves as a portfolio demonstrating a deep understanding of the underlying mathematics (Calculus, Linear Algebra, Probability, and Statistics) and translates them into applied, end-to-end data science pipelines. I've structured the repo to prove that the fundamental building blocks of DS, AI and ML were studied, understood, and applied. 
 Here is how the core mathematical subjects map to the practical models built in this repo:
-- Linear Algebra: Applied in data representations, dimensionality reduction, and the matrix operations underlying Multiple Linear Regression, Ridge, and Lasso (Project 2).
-- Calculus: Utilized in optimizing loss functions via gradient descent, heavily showcased in the mathematical intuition behind Gradient Boosting (Project 5).
-- Probability & Statistics: The backbone of hypothesis testing (Chi-square tests in Project 7), statistical modeling (AR/ARMA time-series in Project 3), and probabilistic outcomes in Logistic Regression (Project 4).
+- **_Linear Algebra_**: Applied in data representations, dimensionality reduction, and the matrix operations underlying Multiple Linear Regression, Ridge, and Lasso (Project 2).
+- **_Calculus_**: Utilized in optimizing loss functions via gradient descent, heavily showcased in the mathematical intuition behind Gradient Boosting (Project 5).
+-**_Probability & Statistics_**: The backbone of hypothesis testing (Chi-square tests in Project 7), statistical modeling (AR/ARMA time-series in Project 3), and probabilistic outcomes in Logistic Regression (Project 4).
 
 
 **Core Applied Data Science Skills**
-- Data Engineering & Wrangling: Querying relational (SQLite) and NoSQL (MongoDB) databases, parsing JSON streams, and building robust ETL pipelines.
-- Exploratory Data Analysis (EDA): Correlation analysis, visualization, and feature engineering.
-- Machine Learning Modeling: Supervised (Regression, Classification) and Unsupervised Learning (Clustering).
-- Advanced Techniques: Addressing class imbalance, handling overfitting through regularization, and ensemble methods.
-- Production & Deployment: Test-Driven Development (TDD), building Python packages, and deploying interactive dashboards.
+- **_Data Engineering & Wrangling_**: Querying relational (SQLite) and NoSQL (MongoDB) databases, parsing JSON streams, and building robust ETL pipelines.
+- **_Exploratory Data Analysis (EDA)_**: Correlation analysis, visualization, and feature engineering.
+- **_Machine Learning Modeling_**: Supervised (Regression, Classification) and Unsupervised Learning (Clustering).
+- **_Advanced Techniques_**: Addressing class imbalance, handling overfitting through regularization, and ensemble methods.
+-**_Production & Deployment_**: Test-Driven Development (TDD), building Python packages, and deploying interactive dashboards.
 
 
 ## Project Portfolio
@@ -30,6 +30,7 @@ The repository is divided into two distinct units, progressively scaling from fo
 - **Concepts**: Data Cleaning, EDA, Correlation Analysis, Visualization.
 - **Description**: This project focuses on foundational data science workflow. It utilizes real estate data from Mexico City which is loaded, cleaned, and visualized to showcase the property listings. The project then dives into quantifying relationships among variables using correlation analysis to explore if property prices are influenced more by size or location. This then helps in the creation of a predictive model.
 
+[Link to Project 1](.Project-1)
 
 
 #### Project 2: Predicting Housing Prices in Buenos Aires with Linear Regression
