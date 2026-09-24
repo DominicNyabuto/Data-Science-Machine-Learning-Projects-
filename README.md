@@ -127,4 +127,4 @@ The repository is divided into two distinct units, progressively scaling from fo
 
 # Acknowledgments
 
-The project structures, and problem statements in this repository are heavily inspired by the coursework I completed as part of my WorldQuant University (WQU) Applied Data Science Lab Certification. This repository represents my personal implementation, continuous learning, and coding execution of their curriculum.
+The project structures, and problem statements in this repository are heavily inspired by the coursework I completed as part of my WorldQuant University (WQU) [Applied Data Science Lab Certification](https://www.wqu.edu/data-science-lab). This repository represents my personal implementation, continuous learning, and coding execution of their curriculum.
