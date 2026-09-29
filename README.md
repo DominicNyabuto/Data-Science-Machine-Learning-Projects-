@@ -7,9 +7,8 @@ This is my Data Science & Machine Learning Projects repository. It serves as a p
 Here is how the core mathematical subjects map to the practical models built in this repo:
 - **_Linear Algebra_**: Applied in data representations, dimensionality reduction, vectorized operations in Pandas/NumPy,and the matrix operations underlying Multiple Linear Regression, Ridge, and Lasso (Project 2).
 - **_Calculus_**: Utilized in optimizing loss functions via gradient descent,Used implicitly for cost function minimization in Logistic Regression (Project 4), and Gradient Boosting algorithms (Project 5).
-- **Probability**: Driving classification thresholds, GARCH model probability distributions for financial volatility (Project 8), and Bayesian thinking.
-- **Statistics**: Formulating hypothesis tests, measuring p-values, A/B testing utilizing Chi-square statistics (Project 7), correlation coefficients, and understanding variance/covariance.
--**_Probability & Statistics_**: The backbone of hypothesis testing (Chi-square tests in Project 7), statistical modeling (AR/ARMA time-series in Project 3), and .
+- **Probability**: Driving classification thresholds, probabilistic outcomes in Logistic Regression (Project 4), GARCH model probability distributions for financial volatility (Project 8), and Bayesian thinking.
+- **Statistics**: Formulating hypothesis tests, measuring p-values, A/B testing utilizing Chi-square statistics (Project 7), correlation coefficients, and understanding variance/covariance, statistical modeling (AR/ARMA time-series in Project 3).
 
 <br>
 
