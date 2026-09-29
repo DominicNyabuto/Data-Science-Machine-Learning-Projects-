@@ -35,3 +35,28 @@ The results of this project were communicated as follows:
 ## Conclusion
 In conclusion, this project aimed to create a predictive model for apartment prices in Mexico City using data science techniques. The results of the project provide insights into the real estate market in Mexico City and can be used to make informed decisions about property investments. This project serves as an example of how data science can be applied to real-world
 
+
+
+# Predicting Apartment Prices in Mexico City
+
+## Project Overview
+This project builds an end-to-end Applied Data Science pipeline to predict real estate prices in Mexico City. By ingesting, cleaning, and mapping property data, the project explores the quantitative relationships between spatial geography, property size, and market valuation. 
+
+## Business Objectives
+* Identify the most expensive and affordable boroughs in Mexico City.
+* Determine whether the surface area of a property or its geographical location has a stronger correlation with its price.
+* Deploy a predictive machine learning model to estimate the price of new apartment listings.
+
+## Methodology
+1. **Data Wrangling:** Loaded real estate listings (`mexico-city-real-estate-1.csv`), dropped rows with missing spatial or price data, and removed extreme surface area outliers to ensure model robustness.
+2. **Exploratory Data Analysis (EDA):** Conducted correlation analysis to measure the linear relationships between variables and utilized `plotly` to render an interactive map of apartment prices, visually revealing geographical pricing clusters.
+3. **Modeling:** Designed a `scikit-learn` pipeline utilizing a `OneHotEncoder` for categorical borough data and a `Ridge` regression model. Regularization was explicitly chosen to penalize model complexity and prevent overfitting.
+4. **Communication:** Extracted and visualized the model's coefficients to rank boroughs by their impact on property price. 
+
+## Key Deliverables
+* **Feature Importance Chart:** A bar chart visualizing the premium or discount associated with specific Mexico City boroughs.
+* **`make_prediction` API:** A standalone Python function that accepts property attributes (`surface_covered`, `lat`, `lon`, `borough`) and returns a predicted USD price.
+* **Interactive Dashboard:** An `ipywidgets` interface allowing stakeholders to adjust property features via sliders and dropdowns to see real-time price predictions directly within the Jupyter Notebook environment.
+
+## Usage
+Run the Jupyter Notebook cells sequentially. The final cell will render the interactive dashboard. Ensure you have `pandas`, `scikit-learn`, `matplotlib`, `plotly`, and `ipywidgets` installed in your environment.
