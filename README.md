@@ -5,9 +5,11 @@
 
 This is my Data Science & Machine Learning Projects repository. It serves as a portfolio demonstrating a deep understanding of the underlying mathematics (Calculus, Linear Algebra, Probability, and Statistics) and translates them into applied, end-to-end data science pipelines. I've structured the repo to prove that the fundamental building blocks of DS, AI and ML were studied, understood, and applied. 
 Here is how the core mathematical subjects map to the practical models built in this repo:
-- **_Linear Algebra_**: Applied in data representations, dimensionality reduction, and the matrix operations underlying Multiple Linear Regression, Ridge, and Lasso (Project 2).
-- **_Calculus_**: Utilized in optimizing loss functions via gradient descent, heavily showcased in the mathematical intuition behind Gradient Boosting (Project 5).
--**_Probability & Statistics_**: The backbone of hypothesis testing (Chi-square tests in Project 7), statistical modeling (AR/ARMA time-series in Project 3), and probabilistic outcomes in Logistic Regression (Project 4).
+- **_Linear Algebra_**: Applied in data representations, dimensionality reduction, vectorized operations in Pandas/NumPy,and the matrix operations underlying Multiple Linear Regression, Ridge, and Lasso (Project 2).
+- **_Calculus_**: Utilized in optimizing loss functions via gradient descent,Used implicitly for cost function minimization in Logistic Regression (Project 4), and Gradient Boosting algorithms (Project 5).
+- **Probability**: Driving classification thresholds, GARCH model probability distributions for financial volatility (Project 8), and Bayesian thinking.
+- **Statistics**: Formulating hypothesis tests, measuring p-values, A/B testing utilizing Chi-square statistics (Project 7), correlation coefficients, and understanding variance/covariance.
+-**_Probability & Statistics_**: The backbone of hypothesis testing (Chi-square tests in Project 7), statistical modeling (AR/ARMA time-series in Project 3), and .
 
 <br>
 
