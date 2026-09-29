@@ -59,4 +59,6 @@ This project builds an end-to-end Applied Data Science pipeline to predict real 
 * **Interactive Dashboard:** An `ipywidgets` interface allowing stakeholders to adjust property features via sliders and dropdowns to see real-time price predictions directly within the Jupyter Notebook environment.
 
 ## Usage
-Run the Jupyter Notebook cells sequentially. The final cell will render the interactive dashboard. Ensure you have `pandas`, `scikit-learn`, `matplotlib`, `plotly`, and `ipywidgets` installed in your environment.
+- Run the Jupyter Notebook cells sequentially. 
+- The final cell will render the interactive dashboard. 
+- NB: ensure you have the `requirements.txt` packages (`pandas`, `scikit-learn`, `matplotlib`, `plotly`,`ipywidgets`, etc) installed in your environment.
