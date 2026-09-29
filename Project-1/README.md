@@ -40,7 +40,8 @@ In conclusion, this project aimed to create a predictive model for apartment pri
 # Predicting Apartment Prices in Mexico City
 
 ## Project Overview
-This project builds an end-to-end Applied Data Science pipeline to predict real estate prices in Mexico City. By ingesting, cleaning, and mapping property data, the project explores the quantitative relationships between spatial geography, property size, and market valuation. 
+- This project builds an end-to-end data science pipeline to predict real estate prices in Mexico City. By ingesting, cleaning, and mapping property data, the project explores the quantitative relationships between spatial geography, property size, and market valuation. 
+- The project is not only useful for predicting apartment prices but also if you are interested in exploring urban economics and real estate analytics.
 
 ## Business Objectives
 * Identify the most expensive and affordable boroughs in Mexico City.
