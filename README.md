@@ -27,7 +27,7 @@ The repository is divided into two distinct units, progressively scaling from fo
 ### UNIT 1: Foundations, Regression, and Classification
 
 
-#### Project 1: Hands-on Data Science in the Mexican Real Estate Market
+#### Project 1: Predicting Apartment Prices in Mexico City
 
 - **Concepts**: 
     - Data Cleaning, EDA, Correlation Analysis, Visualization.
