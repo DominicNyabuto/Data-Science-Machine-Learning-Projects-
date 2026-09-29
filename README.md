@@ -40,7 +40,7 @@ The repository is divided into two distinct units, progressively scaling from fo
 #### Project 2: Predicting Housing Prices in Buenos Aires with Linear Regression
 
 - **Concepts**:
-    - Spervised Learning, Linear Regression, Overfitting, Regularization (Ridge/Lasso).
+    - Supervised Learning, Linear Regression, Overfitting, Regularization (Ridge/Lasso).
 - **Description**:
     - This is a predictive modeling project that predicts housing prices in Buenos Aires. It involves preparing data for modeling, building initial linear regression models, and confronting the reality of overfitting. It address model variance using Ridge and Lasso regularization, proving an understanding of model generalization rather than just fitting numbers.
   
