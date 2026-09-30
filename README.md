@@ -12,13 +12,13 @@ Here is how the core mathematical subjects map to the practical models built in 
 
 <br>
 
-**Core Applied Data Science Skills**
+**Core Skills**
 - **_Data Engineering & Wrangling_**: Querying relational (SQLite) and NoSQL (MongoDB) databases, parsing JSON streams, and building robust ETL pipelines.
 - **_Exploratory Data Analysis (EDA)_**: Correlation analysis, visualization, and feature engineering.
 - **_Machine Learning Modeling_**: Supervised (Regression, Classification) and Unsupervised Learning (Clustering).
 - **_Advanced Techniques_**: Addressing class imbalance, handling overfitting through regularization, and ensemble methods.
 -**_Production & Deployment_**: Test-Driven Development (TDD), building Python packages, and deploying interactive dashboards.
-
+  
 
 ## Project Portfolio
 
