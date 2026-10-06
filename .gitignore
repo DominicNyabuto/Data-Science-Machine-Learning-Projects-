@@ -1,3 +1,13 @@
+# VS Code on Omarchy (ignore Copilot files)
+.github/     
+
+
+
+
+
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
