@@ -1,6 +1,6 @@
-# VS Code on Omarchy (ignore Copilot files)
+# VS Code on Omarchy (ignore Copilot and Kilo files)
 .github/     
-
+.kilo/ 
 
 
 
