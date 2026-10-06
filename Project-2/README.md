@@ -1,10 +1,10 @@
 # Predicting Housing Prices in Buenos Aires with Linear Regression
 
-> **Project status:** Planned structure. The analysis and model results will be added after implementation.
+> **Project status:** Initial analysis and model comparison implemented. Further tuning and deployment can extend this work.
 
 ## Overview
 
-This project develops a supervised machine-learning model to estimate residential property prices in Buenos Aires, Argentina. It uses two CSV extracts of property listings and applies a complete regression workflow: data validation, cleaning, exploratory analysis, feature engineering, baseline modeling, regularization, and evaluation.
+This project develops supervised machine-learning models to estimate residential property prices in Buenos Aires, Argentina. It uses two CSV extracts of property listings and applies a complete regression workflow: data validation, cleaning, exploratory analysis, feature engineering, baseline modeling, regularization, ensemble comparison, and evaluation.
 
 The project extends the repository's foundational real-estate analysis in Project 1 by focusing on predictive modeling. It demonstrates how linear algebra, statistics, and optimization support practical machine-learning decisions, especially the trade-off between model complexity and generalization.
 
@@ -57,7 +57,7 @@ Each file contains 8,606 sale listings and 16 columns. The listings include apar
 
 The raw data contains important missingness: expenses and floor are frequently absent, while rooms, coordinates, and surface measurements are incomplete. These patterns will be measured before modeling rather than handled with arbitrary deletion.
 
-## Planned methodology
+## Methodology
 
 ### 1. Load, validate, and combine the data
 
@@ -97,7 +97,7 @@ Create a simple price baseline, then fit an ordinary least squares linear regres
 
 ### 7. Address overfitting with regularization
 
-Fit Ridge and Lasso regression models, tune their regularization strengths using cross-validation, and compare their coefficients and validation errors with ordinary linear regression.
+Fit Ridge and Lasso regression models, compare their cross-validated errors with ordinary linear regression, and use regularization to assess whether coefficient shrinkage improves generalization.
 
 **Why:** Correlated features, high-cardinality locations, and sparse encoded categories can produce unstable coefficients. Regularization controls variance and improves generalization.
 
@@ -107,7 +107,7 @@ Compare models on the same held-out test set using MAE, RMSE, MAPE, and R². Ins
 
 **Why:** Aggregate metrics alone can hide systematic errors affecting particular types of properties or neighborhoods.
 
-## Expected outputs
+## Outputs
 
 The completed project should produce:
 
@@ -117,15 +117,24 @@ The completed project should produce:
 - Error analysis identifying where the model performs well or poorly.
 - A documented recommendation for the preferred model and its limitations.
 
-## Results
+## Initial results
 
-This section will be completed after the analysis. It should include:
+The executed notebook combined 17,212 listings, retained 15,196 sale listings with positive USD prices, and found no exact-row or listing-URL duplicates. Capital Federal contributed 4,638 listings across 57 neighborhoods and was used as the primary modeling cohort; 10,558 listings outside Capital Federal were retained for a geographic robustness check.
 
-1. The final dataset size and treatment of duplicates, invalid values, and missing data.
-2. The selected features and the reasoning behind excluding any variables.
-3. Test-set metrics for every candidate model.
-4. The selected model and its practical interpretation.
-5. Key market findings and the most important sources of prediction error.
+The initial comparison used a fixed 80/20 test split and three-fold cross-validation on the training set. The best cross-validation result came from Random Forest with a log-USD target, while the raw-USD Random Forest produced the lowest test-set dollar error:
+
+| Model | Target | CV MAE (USD) | Test MAE (USD) | Test RMSE (USD) | Test MAPE | Test R² |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| Random Forest | log-USD | 58,317 | 50,936 | 113,061 | 23.8% | 0.765 |
+| Random Forest | USD | 61,162 | 49,904 | 100,393 | 25.7% | 0.815 |
+| Gradient Boosting | log-USD | 61,642 | 56,321 | 126,043 | 26.6% | 0.710 |
+| Gradient Boosting | USD | 68,249 | 60,533 | 116,266 | 34.3% | 0.748 |
+| Neighborhood/type median | USD | — | 105,443 | 221,929 | 53.6% | 0.100 |
+| Global median | USD | — | 117,277 | 245,583 | 50.8% | -0.110 |
+
+For the current analysis, the log-USD Random Forest is the selected model because it had the best cross-validated USD MAE and lower relative error. The raw-USD Random Forest remains an important alternative because it achieved the best held-out MAE, RMSE, and R². On the external non-Capital-Federal listings, the selected model achieved an MAE of approximately $100,032 and R² of 0.293, indicating meaningful geographic distribution shift and limited portability beyond the primary market.
+
+These results are an initial benchmark rather than a production valuation system. Hyperparameter tuning, geographic holdouts, calibration, and additional market data should be completed before deployment or business use.
 
 ## Limitations and responsible use
 
@@ -139,18 +148,14 @@ This section will be completed after the analysis. It should include:
 
 Python, pandas, NumPy, matplotlib, seaborn, and scikit-learn will be used for data preparation, visualization, modeling, validation, and evaluation.
 
-## Planned project structure
+## Project structure
 
 ```text
 Project-2/
 ├── data/
 │   ├── buenos-aires-real-estate-1.csv
 │   └── buenos-aires-real-estate-2.csv
-├── notebooks/          # Exploratory analysis and modeling
-├── src/                # Reusable data and modeling code
-├── tests/              # Validation and pipeline tests
+├── notebook.ipynb      # Data preparation, EDA, modeling, and evaluation
 └── README.md
 ```
-
-
 
