@@ -7,3 +7,5 @@ scikit-learn
 joblib
 plotly 
 ipywidgets
+statsmodels
+pytz
