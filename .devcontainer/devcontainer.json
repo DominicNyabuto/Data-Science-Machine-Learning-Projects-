@@ -1,11 +1,12 @@
 {
-  "name": "Data Science Hub",
+  "name": "WQU-Projects",
   "image": "mcr.microsoft.com/devcontainers/python:1-3.11-bookworm",
 
   // Add MongoDB and Docker-in-Docker to container automatically
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:1": {},
     "ghcr.io/microsoft/vscode-dev-containers/features/mongodb:1": {}
+    "ghcr.io/devcontainers/features/mongodb:1": {}
   },
 
   "customizations": {
