@@ -1,8 +1,8 @@
 {
-  "name": "Python 3",
+  "name": "Data Science Hub",
   "image": "mcr.microsoft.com/devcontainers/python:1-3.11-bookworm",
 
-  //Add MongoDB and Docker-in-Docker to container automatically
+  // Add MongoDB and Docker-in-Docker to container automatically
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:1": {},
     "ghcr.io/microsoft/vscode-dev-containers/features/mongodb:1": {}
@@ -14,11 +14,17 @@
       "extensions": [
         "ms-python.python",
         "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
         "mongodb.mongodb-vscode"
       ]
     }
   },
-  "updateContentCommand": "[ -f packages.txt ] && sudo apt update && sudo apt upgrade -y && sudo xargs apt install -y <packages.txt; [ -f requirements.txt ] && pip3 install --user -r requirements.txt; pip3 install --user streamlit; echo '✅ Packages installed and Requirements met'",
+
+  // Installs Linux system packages if packages.txt exists
+  "updateContentCommand": "[ -f packages.txt ] && sudo apt update && sudo apt upgrade -y && sudo xargs apt install -y <packages.txt; echo '✅ System packages processed'",
+
+  // Installs common python dependencies across your 8 projects
+  "postCreateCommand": "[ -f requirements.txt ] && pip3 install --user -r requirements.txt; echo '✅ Devcontainer created and requirements met!'",
 
   "portsAttributes": {
     "27017": {
@@ -26,7 +32,7 @@
       "onAutoForward": "ignore"
     }
   },
+  
   // Forwards port 27017 so you can connect locally or view it in the Ports tab
-  "forwardPorts": [27017],
-  "postCreateCommand": "echo '✅ Devcontainer created successfully!'"
+  "forwardPorts": [27017]
 }
