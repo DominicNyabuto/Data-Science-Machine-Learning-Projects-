@@ -5,7 +5,6 @@
   // Add MongoDB and Docker-in-Docker to container automatically
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:1": {},
-    "ghcr.io/microsoft/vscode-dev-containers/features/mongodb:1": {}
     "ghcr.io/devcontainers/features/mongodb:1": {}
   },
 
@@ -33,7 +32,7 @@
       "onAutoForward": "ignore"
     }
   },
-  
+
   // Forwards port 27017 so you can connect locally or view it in the Ports tab
   "forwardPorts": [27017]
 }
