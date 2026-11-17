@@ -1,5 +1,10 @@
 # Data-Science-Machine-Learning-Projects
 
+------
+
+> **Note:** This repository is still under active development. Projects, documentation, and code are being updated continuously.
+
+----
 
 ## Overview
 
@@ -112,20 +117,7 @@ The repository is divided into two distinct units, progressively scaling from fo
 <br>
 <br>
 
-Summary Status Matrix                                                                                                                                                                                                                                          
-                                                                                                                                                                                                                                                                       
-   Project                                           │ Domain / Scenario                                 │ Primary Data Modality                            │ Core Algorithms / Methods                             │ Status
-  ───────────────────────────────────────────────────┼───────────────────────────────────────────────────┼──────────────────────────────────────────────────┼───────────────────────────────────────────────────────┼──────────────────────────────────────────────────
-   Project 1                                         │ Mexico City Real Estate                           │ CSV / Geolocation                                │ Ridge Regression, One-Hot Encoding, Outlier Filtering │ Completed (ipywidgets Dashboard)
-   Project 2                                         │ Buenos Aires Housing                              │ Tabular CSVs (17k+ records)                      │ Ridge, Lasso, Random Forest, Out-of-region Testing    │ Completed (Full Evaluation & Benchmark)
-   Project 3                                         │ Nairobi Air Quality (PM_{2.5})                    │ MongoDB / Time Series                            │ Lagged Regression, AR, ARMA                           │ Scaffolded (Curriculum roadmap)
-   Project 4                                         │ Nepal Earthquake Damage                           │ SQLite / Tabular (76k+ rows)                     │ Logistic Regression, Decision Tree, Random Forest     │ Completed (Streamlit App)
-   Project 5                                         │ Bankruptcy Prediction                             │ JSON / Financial Ratios                          │ Random Forest, Gradient Boosting, Class Imbalance     │ Scaffolded (Curriculum roadmap)
-   Project 6                                         │ Consumer Finance                                  │ Tabular Financial Profiles                       │ K-Means Clustering, PCA Dimensionality Reduction      │ Scaffolded (Curriculum roadmap)
-   Project 7                                         │ Applicant Interventions                           │ MongoDB / A/B Testing                            │ Chi-Square (χ²) Hypothesis Testing, Plotly Dash       │ Scaffolded (Curriculum roadmap)
-   Project 8                                         │ Market Volatility Capstone                        │ Market Data API / Returns                        │ GARCH Volatility Models, TDD (pytest), API Deployment │ Scaffolded (Curriculum roadmap)
-  ──────                                                                                                                                                                                                                                                     
-<br>
+
 
 # Tech Stack
 
