@@ -9,9 +9,9 @@ import plotly.express as px
 import joblib
 
 # # --- Load trained LightGBM model ---
-# best_lgbm = joblib.load(
-#     "results/models/best_lightgbm_model.pkl"
-# )
+best_lgbm = joblib.load(
+     "results/models/best_lightgbm_model.pkl"
+)
 
 # # --- Load example dataframe for defaults & category info ---
 # df_clean = pd.read_csv(
