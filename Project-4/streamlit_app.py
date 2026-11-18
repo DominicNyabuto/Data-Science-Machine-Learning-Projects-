@@ -2,11 +2,11 @@
 
 
 # # app.py
-# import streamlit as st
-# import pandas as pd
-# import lightgbm as lgb
-# import plotly.express as px 
-# import joblib
+import streamlit as st
+import pandas as pd
+import lightgbm as lgb
+import plotly.express as px 
+import joblib
 
 # # --- Load trained LightGBM model ---
 # best_lgbm = joblib.load(
