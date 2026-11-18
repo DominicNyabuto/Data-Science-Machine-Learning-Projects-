@@ -14,9 +14,9 @@ best_lgbm = joblib.load(
 )
 
 # # --- Load example dataframe for defaults & category info ---
-# df_clean = pd.read_csv(
-#     "data/kavrepalanchok_test.csv"
-# )
+df_clean = pd.read_csv(
+    "data/kavrepalanchok_test.csv"
+)
 
 # # Drop 'b_id' if present
 # if 'b_id' in df_clean.columns:
